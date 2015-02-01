@@ -1,0 +1,53 @@
+*{
+	margin:0;
+}
+h1{
+	
+	padding:0px;
+	height:50px;
+	width:500px;
+	font-family:Arial;
+	font-weight:Bold;
+	font-size:20px;
+	font-margin:;	
+	color:46e06a;
+	float:left;
+}
+h2{
+	
+	padding:0px;
+	height:50px;
+	width:200px;
+	font-family:Arial;
+	font-weight:Bold;
+	font-size:20px;
+	font-margin:;	
+	color:46e06a;
+	position:static;
+	top:000px;
+	right:2000px;
+}
+
+
+footer{
+	
+	padding:0px;
+	height:30px;
+	width:100%;
+	font-family:Arial;
+	font-weight:Bold;
+	font-size:10;
+	color:f9fdfc;
+	position:absolute;
+	bottom:0px;
+}
+
+body{
+	background: url(../images/Login_Background_01.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding:0px;
+
+}

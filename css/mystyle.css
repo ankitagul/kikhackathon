@@ -1,0 +1,111 @@
+body {
+	margin:0px;
+    background-color: black;
+}
+
+#map-canvas {
+	position:absolute;
+	width:65%;
+	height:100%;
+}
+
+#right-sidebar { 
+	float: right;
+	text-align: center;
+	width:35%;
+	height:100%;
+}
+
+.RightEl{
+	position: relative;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	border: 1px solid white;
+	width: 90%;
+}
+
+#panel {
+	margin-top:10px;
+}
+
+.Button {
+	background: orange;
+	border: medium none;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 27px;
+}
+
+.InputField {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	border: 3px solid;
+	height: 30px;	
+}
+
+#selectedPics {
+	text-align: center;
+	margin-top:10px;
+	height:267px;
+/*	border:none;
+*/
+}
+
+#displayPics {
+	text-align: center;
+	margin-top:10px;
+	height:155px;
+}
+
+#submit-button {
+	background: orange;
+	margin-top: 10px;
+}   
+
+#add-button {
+	background: blue;
+	margin-top: 5px;
+}
+
+#delete-button {
+	background: red;
+	margin-top: 5px;
+}
+
+.displayimg {
+	height:75%;
+	max-width:95%;
+}
+
+.smallimg {
+	width:75px;
+	height:75px;
+	margin-left:5px;
+}
+
+#photo-panel {
+  padding: 5px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 300px;
+  max-height: 300px;
+  font-size: 14px;
+  font-family: Arial;
+  border: 1px solid #ccc;
+  box-shadow: -2px 2px 2px rgba(33, 33, 33, 0.4);
+  display: none;
+}
+
+.weather {
+color:white;
+}
+
+#logoImg {
+width:420px;
+height:250px;
+}
