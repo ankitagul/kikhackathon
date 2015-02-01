@@ -1,3 +1,7 @@
+*{
+	margin:0px;
+}
+
 body {
 	margin:0px;
     background-color: black;
@@ -9,7 +13,7 @@ body {
 	height:100%;
 }
 
-#right-sidebar { 
+#right-sidebar {
 	float: right;
 	text-align: center;
 	width:35%;
@@ -17,72 +21,88 @@ body {
 }
 
 .RightEl{
+	border-radius: 10px;
 	position: relative;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 5px;
-	border: 1px solid white;
-	width: 90%;
+	border: none;
+	width: 95%;
 }
 
 #panel {
 	margin-top:10px;
+	border:none;
+}
+
+#selectedPics {
+	text-align: center;
+	margin-top:20px;
+	height:250px;
+	border:none;
+
+}
+
+#displayPics {
+	text-align: center;
+	margin-top:15px;
+	height:155px;
+	border:none;
+}
+
+#submit-button {
+/*	background: orange;
+*/
+	margin-top: 5px;
+}   
+
+#add-button {
+/*	background: blue;
+*/
+	margin-top: 5px;
+}
+
+#delete-button {
+/*	background: red;
+*/
+	margin-top: 5px;
 }
 
 .Button {
-	background: orange;
+	width: 100px;
+	font-family: Georgia;
+	text-align: center;
+	border-radius: 10px;
+	text-transform: lowercase;
+	background: white;
 	border: medium none;
-	color: white;
+	color: black;
 	font-size: 18px;
 	font-weight: bold;
 	line-height: 27px;
 }
 
 .InputField {
+	font-family: Georgia;
+	text-align: center;
+	border-radius: 10px;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	width: 95%;
+	width: 100%;
 	border: 3px solid;
 	height: 30px;	
 }
 
-#selectedPics {
-	text-align: center;
-	margin-top:10px;
-	height:267px;
-/*	border:none;
-*/
-}
-
-#displayPics {
-	text-align: center;
-	margin-top:10px;
-	height:155px;
-}
-
-#submit-button {
-	background: orange;
-	margin-top: 10px;
-}   
-
-#add-button {
-	background: blue;
-	margin-top: 5px;
-}
-
-#delete-button {
-	background: red;
-	margin-top: 5px;
-}
 
 .displayimg {
-	height:75%;
+	border-radius: 10px;
+	height:85%;
 	max-width:95%;
 }
 
 .smallimg {
+	border-radius: 10px;
 	width:75px;
 	height:75px;
 	margin-left:5px;
@@ -101,11 +121,11 @@ body {
   display: none;
 }
 
-.weather {
-color:white;
+#copyright {
+	float:bottom;
+	color: white;
 }
 
-#logoImg {
-width:420px;
-height:250px;
+.weather {
+color:white;
 }

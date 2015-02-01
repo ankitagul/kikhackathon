@@ -7,7 +7,7 @@
 	</head>
 	
 	<Body>
-		<header><h1>Yo !! You have kicked below trips.</><?php echo $username; ?>!
+		<header><h1>Welcome <?php echo $username; ?>!</h1>
 	    <a href="http://www.kikhackathon.com/index.php/home/logout"><h2> Logout</h2></a>
 	    </header>
 	   <br/>	   

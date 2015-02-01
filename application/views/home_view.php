@@ -2,7 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="../../css/mystyle.css">
-    <title>Kik Hackathon</title>
+    <title>EXPLORNIQ: explore the unique</title>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
 	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
@@ -305,7 +305,8 @@ function addCoordinates(latLng, photoId) {
 	coordinates[photoId] = latLng;
 	var imagehtml = "<a id='"+photoId+"' href='javascript:restorePic("+photoId+")'><img class='smallimg' src='"+imageUrls[photoId]+"'></a>";
 	jQuery('#displayPics').append(imagehtml);
-	jQuery('#selectedPics').html('');
+	 var logo = "<img src='../../images/logo.jpg' class='displayimg'>";
+	jQuery('#selectedPics').html(logo);
 }
 
 function restorePic(photoId) {
@@ -320,7 +321,8 @@ var picHtml = "<img class='displayimg' src='" + imageUrl + "' ><br/><input type=
 function deleteCoordinates(photoId) {
 delete imageUrls[photoId];
 delete coordinates[photoId];
-jQuery("#selectedPics").html('');
+var logo = "<img src='../../images/logo.jpg' class='displayimg'>";
+jQuery("#selectedPics").html(logo);
 var elem = document.getElementById(photoId);
 	elem.parentNode.removeChild(elem);
 }
@@ -466,15 +468,16 @@ function search(value) {
 		<span id="toWeather" class="weather"></span>
       		<!--<input type="button" value="To" onclick="codeAddress1()" style="background: none repeat scroll 0% 0% rgb(244, 84, 53); border: medium none; color: rgb(255, 255, 255); font-size: 18px; font-weight: bold; line-height: 27px; padding: 4px 20px;margin-top: 8px;"> -->
 	</div>
+	<input id="submit-button" type="button" value="Submit" onclick="codeAddress1()" class="Button">
 	<div id="selectedPics" class="RightEl">
-	<img src="../../images/logo.jpg" id="logoImg"/>
+	<img src="../../images/logo.jpg" class="displayimg" id="logoImg"/>
 	</div>
 	<div id="displayPics" class="RightEl">
 	
 	</div>
-	<div>
-	<input id="submit-button" type="button" value="Submit" onclick="codeAddress1()" class="Button">
-	<div>
+	<div id="copyright" class="RightEl">
+            © A. Gulati, M. Naouach, M. Chauhan, M. Doroshenko, 2015
+        </div>
 	</div>
   </body>
 </html>
